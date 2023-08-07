@@ -1,0 +1,204 @@
+@font-face {
+    font-family: GOTHIC;
+    src: url(./font/Century\ Gothic.ttf);
+    font-weight: normal;
+}
+
+.header {
+    width: 100%;
+    background-color: #FFF;
+}
+
+.header_container {
+    max-width: 1244px;
+    min-height: 56px;
+    padding: 52px 0px;
+    margin: 0 auto;
+}
+
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 127px;
+    height: 46px;
+}
+
+.menu_list {
+    display: flex;
+    gap: 50px;
+}
+
+.menu_list_link {
+    color: #758BFD;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.16;
+}
+
+.menu_list_link_home {
+    color: #27187F;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+input {
+    height: 56px;
+    border-radius: 10px;
+    border: 3px solid #27187F;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 24px;
+    padding: 7px;
+}
+
+.search img {
+    width: 56px;
+    height: 56px;
+}
+
+.conpany_info {
+    width: 100%;
+    background-color: #DDEAF8;
+}
+
+.company_info_container {
+    max-width: 1244px;
+    padding: 115px 0px;
+    margin: 0 auto;
+}
+
+.company_info_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 68px;
+}
+
+.company_info_title h1 {
+    color: #27187F;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+.wrapper_card {
+    display: flex;
+    column-gap: 22px;
+    row-gap: 51px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    background-color: #FFF;
+    padding: 33px 30px;
+    border-radius: 10px;
+}
+
+.image img {
+    width: 340px;
+    height: 188px;
+}
+
+.description {
+    width: 340px;
+}
+
+.description h3 {
+    color: #133B3A;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.footer {
+    width: 100%;
+    background-color: #758BFD;
+}
+
+.footer_container {
+    max-width: 1244px;
+    min-height: 89px;
+    padding: 75px 0px;
+    margin: 0 auto;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_social {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_title h2 {
+    color: #00CAD7;
+    font-family: GOTHIC;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    margin-bottom: 21px;
+}
+
+.contact_mail p {
+    color: #FFF;
+    font-family: GOTHIC;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.2px;
+    margin-bottom: 12px;
+}
+
+.social {
+    display: flex;
+    gap: 24px;
+}
+
+.social_icon img {
+    width: 22px;
+    height: 22px;
+}
+
+.wrapper_cards {
+    display: flex;
+    gap: 11px;
+}
+
+.card_bank {
+    width: 97px;
+    height: 55px;
+    background-color: #FFF;
+    border-radius: 5px;
+}
+
+.visa {
+    margin: 13px 5px 15px 2px;
+}
+
+.master {
+    margin: 1px 5px 5px 7px;
+}
+
+.cash {
+    margin: 4px 4px 4px 0px;
+}
+
+.ins {
+    margin: 0px 6px 0px 7px;
+}
